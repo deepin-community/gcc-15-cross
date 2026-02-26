@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Uploaders: Matthias Klose <doko@debian.org>
 Standards-Version: 4.7.3
-Build-Depends: gcc-15-source (>= 15.2.0-13~),
-  gcc-15-base (>= 15.2.0-13~),
+Build-Depends: gcc-15-source (>= 15.2.0-12~),
+  gcc-15-base (>= 15.2.0-12~),
   binutils-multiarch (>= 2.45-5),
   autoconf2.69, bison (>= 1:2.3),
   chrpath, debhelper (>= 11), dpkg-dev (>= 1.21.17), flex, gawk, gettext,

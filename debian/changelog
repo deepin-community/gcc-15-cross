@@ -1,3 +1,9 @@
+gcc-15-cross (13deepin1) unstable; urgency=medium
+
+  * set gcc-15 version to deepin baseline
+
+ -- Chang Yang <yangchang@deepin.org>  Thu, 26 Feb 2026 10:13:30 +0800
+
 gcc-15-cross (13) unstable; urgency=medium
 
   * Build using gcc 15.2.0-13.

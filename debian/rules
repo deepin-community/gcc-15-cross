@@ -15,8 +15,8 @@ distrelease := $(shell lsb_release -cs)
 GCC_VER := $(shell dpkg-parsechangelog |egrep ^Source:|cut -f2 -d' '|cut -f2 -d'-')
 
 ifeq ($(GCC_VER),15)
-  MIN_VER_GCC      := 15.2.0-13~
-  PPA_VER_GCC      := 15.2.0-13~
+  MIN_VER_GCC      := 15.2.0-12~
+  PPA_VER_GCC      := 15.2.0-12~
 endif
 
 ifndef MIN_VER_GCC
